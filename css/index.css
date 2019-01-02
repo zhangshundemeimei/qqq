@@ -1,0 +1,134 @@
+@charset "utf-8";
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.r{
+	float: right;
+}
+.l{
+	float: left;
+}
+.c{
+	clear: both;
+}
+body{
+	width:100% ;
+	/*overflow: hidden;*/
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.wrap{
+	width: 1200px;
+	margin: auto;
+}
+.top2{
+	width: 1200px;
+	height: 50px;
+}
+.top2-l{
+	width: 200px;
+	height: 50px;	
+}
+.top2-m{
+	width: 800px;
+	height: 50px;
+}
+
+.top2-m ul li {
+	display: inline-block;
+	width:110px;
+	height:60px;
+	margin-left: 15px;
+	background: url(../img/header.png);
+}
+.top2-m ul li a{
+	display: inline-block;
+	width:110px;
+	height:60px;
+}
+.top2-m ul li:nth-of-type(1){
+	background-position: 0px 510px ;
+}
+.top2-m ul li:nth-of-type(2){
+	background-position: 0px 425px ;
+}
+.top2-m ul li:nth-of-type(3){
+	background-position:0px 340px ;
+}
+.top2-m ul li:nth-of-type(4){
+	background-position: 0px 256px ;
+}
+.top2-m ul li:nth-of-type(5){
+	background-position: 0px 173px ;
+}
+.top2-m ul li:nth-of-type(6){
+	background-position: 0px 90px ;
+}
+.top2-m ul li:nth-of-type(1):hover{
+	background-position: 108px 510px ;
+}
+.top2-m ul li:nth-of-type(2):hover{
+	background-position: 108px 425px ;
+}
+.top2-m ul li:nth-of-type(3):hover{
+	background-position:108px 340px ;
+}
+.top2-m ul li:nth-of-type(4):hover{
+	background-position: 108px 256px ;
+}
+.top2-m ul li:nth-of-type(5):hover{
+	background-position: 108px 173px ;
+}
+.top2-m ul li:nth-of-type(6):hover{
+	background-position: 108px 90px ;
+}
+.top2-r{
+	width: 200px;
+	height: 50px;
+	background-color: cadetblue;
+	
+}
+.top2-r ul{
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+.top2-r ul li{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin-left: 13px;
+	background: url(../img/iconsB.png);
+}
+.top2-r ul li a{
+	display: inline-block;
+	width: 22px;
+	height: 22px;	
+}
+.top2-r ul li:nth-of-type(1){
+	background-position: 1799px 210.5px ;
+	
+}
+.top2-r ul li:nth-of-type(2){
+	background-position: 1775px 210.5px ;
+}
+.top2-r ul li:nth-of-type(3){
+	background-position: 1750px 210.5px ;
+}
+.top2-r ul li:nth-of-type(1):hover{
+	background-position: 1799px 236px  ;
+	transition: all 1s ;
+}
+.top2-r ul li:nth-of-type(2):hover{
+	background-position: 1775px 236px;
+	transition: all 1s ;
+}
+.top2-r ul li:nth-of-type(3):hover{
+	background-position: 1750px 236px  ;
+	transition: all 1s  ;
+}
